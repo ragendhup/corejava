@@ -4,7 +4,7 @@ public class Employee {
 	private String name;
 	private int employeeid;
 	private int salary;
-    void show()
+    void show()//member function
     
     {
 	System.out.println("Name:"+name+ "\tEmployeeid:"+employeeid+"\t Salary:"+salary);

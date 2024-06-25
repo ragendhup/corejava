@@ -3,13 +3,13 @@ package employees;
 public class DeveloperDemo {
 	public static void main(String args[])
 	{
-		Developer ob=new Developer();
+		Developer obj=new Developer();
 		
-		ob.setName("Shruthi");
-		ob.setDeveloperid(114);
-		ob.setSalary(200000);
+		obj.setName("Shruthi");
+		obj.setDeveloperid(114);
+		obj.setSalary(200000);
 		
-		System.out.println(ob);
+		System.out.println(obj);
 }
 
 }
