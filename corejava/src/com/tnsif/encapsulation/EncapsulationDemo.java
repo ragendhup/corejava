@@ -6,10 +6,13 @@ public class EncapsulationDemo {
 	{
 	Encapsulation ob=new Encapsulation();
 	
-	ob.name="Ragendhu";
-	ob.age=21;
-	ob.serialNumber=111;
-	ob.show();
+	//ob.name="Ragendhu";
+	//ob.age=21;
+	//ob.serialNumber=111;
+	ob.setAge(21);
+	ob.setName("Ragendhu");
+	ob.setSerialNumber(111);
+	System.out.println(ob);
 	}		
 
 }
