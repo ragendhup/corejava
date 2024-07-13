@@ -1,7 +1,7 @@
 //multiple try catch
 package com.tns.exception;
 
-public class Trycatch {
+public class Trycatch {//calling method
 	public static void divide() {
 	int a=9,b=0,c;
 	try {
@@ -18,7 +18,11 @@ public class Trycatch {
 	}
 	catch(Exception e) {
 		System.out.println("exception caught"+e.getMessage());
+		System.exit(0);
 		
+	}
+	finally {
+		System.out.println("executed exception occurs or not");
 	}
 	
 	
