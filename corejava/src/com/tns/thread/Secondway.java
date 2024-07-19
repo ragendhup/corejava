@@ -6,7 +6,7 @@ public class Secondway implements Runnable {
 		Thread th=new Thread(t);
 		th.start();//runnable state
 		//th.start();//illegal thread state exception
-		th.run();
+		th.run();//normal method
 		
 	}
 	public void run() {
