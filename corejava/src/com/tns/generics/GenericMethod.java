@@ -15,5 +15,6 @@ public class GenericMethod {
 	obj.displayArrayElements(intarray);
 	obj.displayArrayElements(strarr);
 	
+	
 
 }
